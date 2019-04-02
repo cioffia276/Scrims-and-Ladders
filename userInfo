@@ -1,0 +1,20 @@
+﻿-- Table: public."userInfo"
+
+-- DROP TABLE public."userInfo";
+
+CREATE TABLE public."userInfo"
+(
+  password text,
+  "f_Name" text,
+  "l_Name" text,
+  email text,
+  admin bit(1),
+  gender bit(1),
+  region text,
+  username text
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."userInfo"
+  OWNER TO postgres;
