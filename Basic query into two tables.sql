@@ -1,8 +1,8 @@
-﻿/*insert into public."userInfo" (password,"f_Name","l_Name","email",admin,gender,"region","username")
-values ('1234','Cat','Davis','cdavis@fake.com','0','1','USA','CDavis159')
+﻿/*insert into public."userInfo" (password,"f_Name","l_Name","email",player,coach,spectator,manager,gender,"region","username")
+values ('1234','Cat','Davis','cdavis@fake.com','0','1','0','0','1','USA','CDavis159')
 */
 /*
-update public."userInfo" set "admin" = '1' where "username" = 'CDavis159'
+update public."userInfo" set "player"= 1' where "username" = 'CDavis159'
 */
 select * from public."userInfo";
 
