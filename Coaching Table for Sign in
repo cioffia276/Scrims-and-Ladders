@@ -1,0 +1,23 @@
+-- Table: public.coachSignUp
+
+-- DROP TABLE public.coachSignUp;
+
+CREATE TABLE public.coachSignUp
+(
+  onePerson bit(1),
+  team bit(1),
+  either bit(1),
+  role text,
+  rank text,
+  "playerType" text,
+  experience text,
+  "preferred_Champion" text,
+  username text
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.characteristics
+  OWNER TO postgres;
+  
+  --Need to create a parameter where a user needs to have "coach" set to 1
