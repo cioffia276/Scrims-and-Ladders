@@ -8,7 +8,10 @@ CREATE TABLE public."userInfo"
   "f_Name" text,
   "l_Name" text,
   email text,
-  admin bit(1),
+  player bit(1),
+  spectator bit(1),
+  coach bit(1),
+  manager bit(1),
   gender bit(1),
   region text,
   username text
