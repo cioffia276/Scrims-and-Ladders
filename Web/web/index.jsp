@@ -11,6 +11,10 @@
     <title>Scrims and Ladders!</title>
   </head>
   <body>
-  We're getting there!
+  <header>
+    <p>
+    <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
+    </p>
+  </header>
   </body>
 </html>
