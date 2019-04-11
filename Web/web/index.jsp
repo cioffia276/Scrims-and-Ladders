@@ -12,9 +12,10 @@
   </head>
   <body>
   <header>
-    <p>
-    <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
-    </p>
+    <h1 style="text-align: center">
+      <a href="index.jsp">Home</a> | <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
+    </h1>
+
   </header>
   </body>
 </html>
