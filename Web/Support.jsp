@@ -9,8 +9,21 @@
 <html>
 <head>
     <title>Support</title>
+    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
 </head>
 <body>
+<div class="header">
+        <div class="header-left">
+        <a href="index.jsp"> Home</a>
+        <a href="About.jsp">About</a>
+        <a href="FAQ.jsp">FAQ</a>
+        <a class="active" href="Support.jsp">Support</a>
+    </div>
+    <div class="header-right">
+        <a href="login.jsp">Login</a>
+        <a href="sUp.jsp">Sign Up</a>
+    </div>
+</div>
 
 </body>
 </html>

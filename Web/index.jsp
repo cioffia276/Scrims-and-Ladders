@@ -8,28 +8,33 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+    <!-- This is how to set up a page! The title is what appears on the bar-->
     <title>Home. Of SaL</title>
-    <style>
-      .header a{
-         float: left;
-        color: aqua;
-        text-align: center;
-        padding: 12px;
-        font-size: 18px;
-        line-height: 25px;
-        border-radius: 5px;
-      }
-    </style>
+    <!--Style is how the page is formatted
+    This has been moved to the .css to clear up space.-->
+    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
+    <!--.Header is the basic set up of the header
+        .header a is the elements within the 'a' header
+        .header a:hover makes it so it is highlighted when it is hovered by the mouse
+        .header a.active is the active tab
+        .header-left is the text on the left side
+        .header-right is the text on the right side
+        @media sets the element-->
   </head>
   <body>
-  
-  <header><small>
-    <h1>
-      <a href="index.jsp">Home</a> | <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
-    </h1>
-      <h2>
-        <a href="Login.jsp">Login</a> | <a href="sUp.jsp">Sign Up</a>
-      </h2></small>
-    </header>
+  <div class="header">
+    <!--<a href="#default" class ="logo">Logo goes here</a>-->
+    <div class="header-left">
+      <a class="active" href="index.jsp"> Home</a>
+      <a href="About.jsp">About</a>
+      <a href="FAQ.jsp">FAQ</a>
+      <a href="Support.jsp">Support</a>
+     </div>
+    <div class="header-right">
+      <a href="login.jsp">Login</a>
+      <a href="sUp.jsp">Sign Up</a>
+    </div>
+  </div>
+
   </body>
 </html>
