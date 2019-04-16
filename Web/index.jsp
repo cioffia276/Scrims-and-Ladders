@@ -8,15 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Home. Of SaL</title>
+    <title>Home | Scrims and Ladders</title>
     <style>
       header {
-         border: 1px solid powderblue;
+         border: 3px solid darkblue;
       }
     </style>
   </head>
   <body>
-  
+
   <header><small>
     <h1>
       <a href="index.jsp">Home</a> | <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
