@@ -22,7 +22,7 @@
       <a href="index.jsp">Home</a> | <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
     </h1>
       <h2>
-        <a href="Login.jsp">Login</a> | <a href="sUp.jsp">Sign Up</a>
+        <a href="Login.jsp">Login</a> | <a href="signup.jsp">Sign Up</a>
       </h2></small>
     </header>
   </body>
