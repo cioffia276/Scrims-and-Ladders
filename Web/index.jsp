@@ -10,8 +10,14 @@
   <head>
     <title>Home. Of SaL</title>
     <style>
-      header {
-         border: 1px solid powderblue;
+      .header a{
+         float: left;
+        color: aqua;
+        text-align: center;
+        padding: 12px;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 5px;
       }
     </style>
   </head>
@@ -22,7 +28,7 @@
       <a href="index.jsp">Home</a> | <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
     </h1>
       <h2>
-        <a href="Login.jsp">Login</a> | <a href="signup.jsp">Sign Up</a>
+        <a href="Login.jsp">Login</a> | <a href="sUp.jsp">Sign Up</a>
       </h2></small>
     </header>
   </body>
