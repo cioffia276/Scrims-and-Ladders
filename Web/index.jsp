@@ -36,5 +36,26 @@
     </div>
   </div>
 
+  <div class="headerMp">
+    <br>
+      ARE YOU TIRED OF NOT HAVING FRIENDS TO MAKE A TEAM WITH? <br>
+    <br>ARE YOU TIRED OF SUCKING AT LOL?<br>
+      <br>ARE YOU TIRED OF 1V9ING ALL OF YOUR GAMES?<br>
+
+    <div class="pMp" >
+      <br> <br> WELCOME <br> TO <br> SCRIMS AND LADDERS</div>
+
+    <p>
+      <br>
+      <br>
+      <button class="button">
+        <a href="login.jsp">LOG IN</a>
+      </button>
+      <button class="button">
+        <a href="signup.jsp">SIGN UP</a>
+    </button>
+    </p>
+  </div>
+
   </body>
 </html>

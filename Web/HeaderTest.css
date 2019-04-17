@@ -1,24 +1,29 @@
+body{
+    background-color: #454552;
+}
+
 .header{
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #000000;
     padding: 20px 10px;
 }
 .header a{
     float: left;
-    color: aqua;
+    display: inline-block;
+    color:#4ea1d3;
     text-align: center;
     padding: 12px;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 20px;
     border-radius: 5px;
 }
 .header a:hover{
-    background-color: #ddd;
-    color: black;
+    background-color:  #454552;
+    color: #e85a71;
 }
 .header a.active{
-    background-color: dodgerblue;
-    color: white;
+    background-color:  #454552;
+    color: #4ea1d3;
 }
 .header-left{
     float: left;
@@ -38,4 +43,32 @@
     .header-right {
         float: none;
     }
+}
+
+.button{
+    background-color: #fbd14b;
+    border: #000000;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: crosshair;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+
+.headerMp{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #4ea1d3;
+    font-family: 'Felix Titling';
+}
+.pMp {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #fbd14b;
+    font-family: 'Felix Titling';
 }
