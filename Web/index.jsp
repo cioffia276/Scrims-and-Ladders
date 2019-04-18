@@ -8,25 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-<<<<<<< HEAD
-    <title>Home | Scrims and Ladders</title>
-    <style>
-      header {
-         border: 3px solid darkblue;
-      }
-    </style>
-  </head>
-  <body>
-
-  <header><small>
-    <h1>
-      <a href="index.jsp">Home</a> | <a href="About.jsp">About</a> | <a href="FAQ.jsp">FAQ</a> | <a href="Support.jsp">Support</a>
-    </h1>
-      <h2>
-        <a href="Login.jsp">Login</a> | <a href="sUp.jsp">Sign Up</a>
-      </h2></small>
-    </header>
-=======
     <!-- This is how to set up a page! The title is what appears on the bar-->
     <title>Home. Of SaL</title>
     <!--Style is how the page is formatted
@@ -76,6 +57,5 @@
     </p>
   </div>
 
->>>>>>> 8c6f6eb3916b88ca215ddc01625d4e92e61510cb
   </body>
 </html>

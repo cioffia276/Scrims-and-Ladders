@@ -23,6 +23,7 @@
     <div class="header-right">
         <a href="profile.jsp">Profile</a>
         <a href="team.jsp">Team</a>
+        <a class="active" href="index.jsp"> Log Out</a>
     </div>
 </div>
 <div class="headerMp">
