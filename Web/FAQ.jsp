@@ -8,8 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+<<<<<<< HEAD
+    <title>FAQ | Scrims and Ladders</title>
+=======
     <title>FAQ</title>
     <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
+>>>>>>> 8c6f6eb3916b88ca215ddc01625d4e92e61510cb
 </head>
 <body>
 <div class="header">
