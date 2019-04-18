@@ -13,7 +13,6 @@
 </head>
 <body>
 <div class="header">
-    <!--<a href="#default" class ="logo">Logo goes here</a>-->
     <div class="header-left">
         <a class="active" href="landingPage.jsp"> Home</a>
         <a href="About.jsp">About</a>
@@ -23,7 +22,7 @@
     <div class="header-right">
         <a href="profile.jsp">Profile</a>
         <a href="team.jsp">Team</a>
-        <a class="active" href="index.jsp"> Log Out</a>
+        <a href="index.jsp"> Log Out</a>
     </div>
 </div>
 <div class="headerMp">

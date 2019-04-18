@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
   <style> </style>
 </head>
+
 <script>
   function print(){
       var x = document.getElementById("frm1");
@@ -25,7 +26,6 @@
       }
       document.getElementById("demo").innerHTML = text;
   }
-
 </script>
 
 <body>
@@ -37,12 +37,17 @@
     <a href="Support.jsp">Support</a>
   </div>
   <div class="header-right">
-    <a href="login.jsp">Login</a>
+    <a class="active" href="login.jsp">Login</a>
     <a href="signup.jsp">Sign Up</a>
   </div>
+
+
+</div>
+
+<div class="headerM">Login!<br><br><br>
 </div>
 <form id="frm1" method ="post" action="process.jsp">
-  <div class="regularText">
+  <div class="regularTexty" style = "text-align: center;">
   Username:<br>
   <input type="text" value="" name="username"><br>
   Password:<br>
@@ -54,13 +59,8 @@
   <br><br>
   </div>
 </form>
-<button class="button">
-  <a href="landingPage.jsp">LOG IN</a>
-
-<p id="demo"></p>
-
-
-
-
+  <button class="button">
+   <a href="landingPage.jsp">LOG IN</a>
+  </button>
 </body>
 </html>

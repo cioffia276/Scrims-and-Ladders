@@ -1,12 +1,19 @@
+/*This is the style sheet to use for the website.*/
+
+
+/*This sets the background of the body to gray*/
 body{
     background-color: #454552;
 }
 
+/*This section is for the header bar. These sections include the menu bar, the hover, and the active*/
+/*Header is for the bar itself*/
 .header{
     overflow: hidden;
     background-color: #000000;
     padding: 20px 10px;
 }
+/*header a includes the text located to the left of the screen*/
 .header a{
     float: left;
     display: inline-block;
@@ -17,22 +24,26 @@ body{
     line-height: 20px;
     border-radius: 5px;
 }
+/*a:hover is the active hover*/
 .header a:hover{
     background-color:  #454552;
     color: #e85a71;
 }
+/*a.active shows the active tab*/
 .header a.active{
     background-color:  #454552;
     color: #4ea1d3;
 }
+/*header for location left*/
 .header-left{
     float: left;
 }
+/*header for location right*/
 .header-right{
     float: right;
 }
 
-
+/*No idea chief*/
 @media  and (max-width:500px) {
     .header a {
         float: none;
@@ -45,10 +56,11 @@ body{
     }
 }
 
+/*Class for buttons*/
 .button{
     background-color: #fbd14b;
     border: #000000;
-    color: aliceblue;
+    color: #4ea1d3;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -57,14 +69,15 @@ body{
     padding: 15px 15px;
     border-radius: 8px;
 }
-
-.headerMp{
+/*Header for the main page*/
+.headerM{
     text-align: center;
     font-weight: bold;
     font-size: 28px;
     color: #4ea1d3;
     font-family: 'Felix Titling';
 }
+/*Paragraph for the main page*/
 .pMp {
     text-align: center;
     font-weight: bolder;
@@ -72,7 +85,13 @@ body{
     color: #fbd14b;
     font-family: 'Felix Titling';
 }
-.regularText {
+/*Regular blue text*/
+.regularTextb {
     color: #4ea1d3;
+    font-family: 'Felix Titling';
+}
+/*Regular yellow text*/
+.regularTexty {
+    color: #fbd14b;
     font-family: 'Felix Titling';
 }

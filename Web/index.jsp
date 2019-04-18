@@ -36,7 +36,7 @@
     </div>
   </div>
 
-  <div class="headerMp">
+  <div class="headerM">
     <br>
       ARE YOU TIRED OF NOT HAVING FRIENDS TO MAKE A TEAM WITH? <br>
     <br>ARE YOU TIRED OF SUCKING AT LOL?<br>
