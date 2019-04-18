@@ -38,7 +38,7 @@
   </div>
   <div class="header-right">
     <a href="login.jsp">Login</a>
-    <a href="sUp.jsp">Sign Up</a>
+    <a href="signup.jsp">Sign Up</a>
   </div>
 </div>
 Page 1
@@ -54,7 +54,8 @@ Page 1
   <br><br>
   <input type="submit" value="submit">
 </form>
-<button onclick="print()">Print</button>
+<button class="button">
+  <a href="landingPage.jsp">LOG IN</a>
 
 <p id="demo"></p>
 
