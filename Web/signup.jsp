@@ -23,10 +23,11 @@
     </div>
     <div class="header-right">
         <a href="login.jsp">Login</a>
-        <a href="sUp.jsp">Sign Up</a>
+        <a href="signup.jsp">Sign Up</a>
     </div>
 </div>
 <form>
+    <div class="regularText">
     Player Type:
     <br>
     <input type="radio" name ="type" value="Player"> Player<br>
@@ -69,8 +70,9 @@
         <option value="Hardcore">Hardcore</option>
     </select>
     <br><br>
-    <input type="submit" value="Sign Up!">
-
+    <button class="button">
+        <a href="landingPage.jsp">Sign up!</a>
+    </div>
 </form>
 </body>
 </html>

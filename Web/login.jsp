@@ -13,7 +13,7 @@
 <head>
   <title>Login in!</title>
   <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
-
+  <style> </style>
 </head>
 <script>
   function print(){
@@ -41,8 +41,8 @@
     <a href="signup.jsp">Sign Up</a>
   </div>
 </div>
-Page 1
 <form id="frm1" method ="post" action="process.jsp">
+  <div class="regularText">
   Username:<br>
   <input type="text" value="" name="username"><br>
   Password:<br>
@@ -52,7 +52,7 @@ Page 1
   Email:<br>
   <input type="text" value="" name="email"><br>
   <br><br>
-  <input type="submit" value="submit">
+  </div>
 </form>
 <button class="button">
   <a href="landingPage.jsp">LOG IN</a>

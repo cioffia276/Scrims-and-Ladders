@@ -15,7 +15,7 @@
 <div class="header">
     <!--<a href="#default" class ="logo">Logo goes here</a>-->
     <div class="header-left">
-        <a class="active" href="index.jsp"> Home</a>
+        <a class="active" href="landingPage.jsp"> Home</a>
         <a href="About.jsp">About</a>
         <a href="FAQ.jsp">FAQ</a>
         <a href="Support.jsp">Support</a>
