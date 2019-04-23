@@ -28,3 +28,4 @@ WITH (
 );
 ALTER TABLE public.characteristics
   OWNER TO postgres;
+--++ ADDED TO DB 4/23
