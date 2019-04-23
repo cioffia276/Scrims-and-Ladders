@@ -4,14 +4,14 @@
 
 CREATE TABLE public.managerSignUp
 (
-  "teamName"  text,
+  teamName  text,
   onePerson bit(1),
   team bit(1),
   either bit(1),
-  "teamRank" text,
-  "playerType" text,
-  "experience" text,
-  "preferred_Champion_Team" text,
+  teamRank text,
+  playerType text,
+  experience text,
+  preferred_Champion_Team text,
   lookingForMembers bit(1),
   lookingForCoach bit(1),
   username text
@@ -20,8 +20,9 @@ WITH (
   OIDS=FALSE
 );
 ALTER TABLE public.characteristics
-  OWNER TO postgres;
+  OWNER TO  jackad;
   
   --Need to create a parameter where a user needs to have "Manager" set to 1.
    
   --++ADDED TO DB 4/23
+  --modified to match DB 4/23
