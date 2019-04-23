@@ -23,3 +23,5 @@ ALTER TABLE public.characteristics
   OWNER TO postgres;
   
   --Need to create a parameter where a user needs to have "Manager" set to 1.
+  
+  --++ADDED TO DB 4/23
