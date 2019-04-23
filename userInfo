@@ -21,3 +21,5 @@ WITH (
 );
 ALTER TABLE public."userInfo"
   OWNER TO postgres;
+
+--++ADDED TO DB 4/23
