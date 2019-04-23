@@ -52,10 +52,6 @@
   <input type="text" value="" name="username"><br>
   Password:<br>
   <input type="password" value="" id="password1"><br>
-  Confirm Password:<br>
-  <input type="password" value="" id="password2"><br>
-  Email:<br>
-  <input type="text" value="" name="email"><br>
   <br><br>
   </div>
 

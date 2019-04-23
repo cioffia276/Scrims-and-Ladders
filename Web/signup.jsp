@@ -22,7 +22,7 @@
 
 
         <sql:update dataSource = "${snapshot}" var = "result">
-        INSERT INTO userInfo VALUES(x.elements[0],x.elements[1],x.elements[2],x.elements[3],x.elements[4]);
+        INSERT INTO userinfo VALUES(x.elements[0],x.elements[1],x.elements[2],x.elements[3],x.elements[4]);
         </sql:update>
     }
 </script>
@@ -46,14 +46,19 @@
         <a href="signup.jsp">Sign Up</a>
     </div>
 </div>
+
+
 <form id="signup" method="post">
     <div class="regularText">
     Player Type:
     <br>
+        <div>
     <input type="radio" name ="type" value="Player"> Player<br>
     <input type="radio" name ="type" value="Coach"> Coach<br>
     <input type="radio" name ="type" value="Manager"> Manager<br>
+        </div>
     <br>
+        <div>
     Rank:
     <select name="Rank">
         <option value="Iron">Iron</option>
@@ -65,6 +70,7 @@
         <option value="Grandmaster">Grandmaster</option>
         <option value="Challenger">Challenger</option>
     </select>
+        </div>
     <br><br>
     Division:
     <select name="Division">

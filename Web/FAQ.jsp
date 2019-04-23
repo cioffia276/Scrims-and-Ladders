@@ -21,7 +21,7 @@
     </div>
     <div class="header-right">
         <a href="login.jsp">Login</a>
-        <a href="sUp.jsp">Sign Up</a>
+        <a href="signup.jsp">Sign Up</a>
     </div>
 </div>
 
