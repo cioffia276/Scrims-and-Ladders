@@ -1,12 +1,12 @@
-﻿-- Table: public."userInfo"
+﻿-- Table: public.userInfo
 
--- DROP TABLE public."userInfo";
+-- DROP TABLE public.userInfo;
 
-CREATE TABLE public."userInfo"
+CREATE TABLE public.userInfo
 (
   password text,
-  "f_Name" text,
-  "l_Name" text,
+  f_Name text,
+  l_Name text,
   email text,
   player bit(1),
   spectator bit(1),
@@ -19,7 +19,8 @@ CREATE TABLE public."userInfo"
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public."userInfo"
-  OWNER TO postgres;
-
+ALTER TABLE public.userInfo
+  OWNER TO  jackad;
+  
 --++ADDED TO DB 4/23
+--Modified to match what is on db 4/23
