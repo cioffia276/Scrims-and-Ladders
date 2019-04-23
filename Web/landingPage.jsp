@@ -25,7 +25,7 @@
         <a href="index.jsp"> Log Out</a>
     </div>
 </div>
-<div class="headerMp">
+<div class="headerM">
     <br>
     Welcome to Scrims and Ladders!
 </div>

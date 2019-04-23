@@ -58,9 +58,14 @@
   <input type="text" value="" name="email"><br>
   <br><br>
   </div>
+
+
 </form>
+<p style="text-align: center">
   <button class="button">
-   <a href="landingPage.jsp">LOG IN</a>
+    <a href="landingPage.jsp">LOG IN</a>
   </button>
+</p>
+
 </body>
 </html>

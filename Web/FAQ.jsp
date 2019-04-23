@@ -24,5 +24,14 @@
         <a href="sUp.jsp">Sign Up</a>
     </div>
 </div>
+
+<div>
+    <div class="headerM">
+        FAQ <hr>
+    </div>
+    <div class="textYA">
+
+    </div>
+</div>
 </body>
 </html>
