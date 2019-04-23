@@ -1,0 +1,26 @@
+
+/* Test data to insert into tables */
+
+INSERT INTO Messages
+           (MessageParentID
+           ,Body
+           ,Date
+           ,userID) /*creator of message*/
+     VALUES
+(0,'Its getting hot in here', '2015-12-27 00:00:00.000', 101),
+(0,'Where is all the chicken?', '2015-12-28 00:00:00.000', 102),
+(0,'Wasnt it always kinda of hot tho', '2016-01-04 00:00:00.000', 103),
+(3,'Sometimes its a little hotter', '2016-01-05 00:00:00.000', 101);
+
+INSERT INTO MessageRecipients
+           (MessageID
+           ,Viewed
+           ,ViewedTimeStamp
+           ,SendTo)
+     VALUES
+(1, '0', '', 102),
+(1, '0', '', 103),
+(2, '0', '', 101),
+(2, '0', '', 104),
+(3, '0', '', 101),
+(4, '0', '', 103);
