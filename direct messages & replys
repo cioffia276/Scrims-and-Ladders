@@ -1,0 +1,50 @@
+CREATE TABLE [Messages](
+	[MessageID] [int] IDENTITY(1,1) NOT NULL,
+  [MessageParentID] [int] NULL,
+	[Body] [nvarchar](500) NOT NULL,
+	[Date] [datetime] NOT NULL,
+	[userID] [nvarchar](max) NOT NULL, /*creator of message*/
+ CONSTRAINT [PK_dbo.Messages] PRIMARY KEY CLUSTERED 
+(
+	[MessageID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+CREATE TABLE [MessageRecipients](
+	[MessageRecipientID] [int] IDENTITY(1,1) NOT NULL,
+	[MessageID] [int] NOT NULL,
+	[Viewed] [bit] NOT NULL,
+	[ViewedTimeStamp] [datetime] NULL,
+	[SendTo] [nvarchar](max) NOT NULL CONSTRAINT [DF__MessageRe__SendT__282DF8C2]  DEFAULT (''),
+ CONSTRAINT [PK_dbo.MessageRecipients] PRIMARY KEY CLUSTERED 
+(
+	[MessageRecipientID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+
+/* Test data to insert into tables */
+
+INSERT INTO [Messages]
+           ([MessageParentID]
+           ,[Body]
+           ,[Date]
+           ,[userID]) /*creator of message*/
+     VALUES
+(0,'Its getting hot in here', '2015-12-27 00:00:00.000', 101),
+(0,'Where is all the chicken?', '2015-12-28 00:00:00.000', 102),
+(0,'Wasnt it always kinda of hot tho', '2016-01-04 00:00:00.000', 103),
+(3,'Sometimes its a little hotter', '2016-01-05 00:00:00.000', 101);
+
+INSERT INTO [MessageRecipients]
+           ([MessageID]
+           ,[Viewed]
+           ,[ViewedTimeStamp]
+           ,[SendTo])
+     VALUES
+(1, '0', '', 102),
+(1, '0', '', 103),
+(2, '0', '', 101),
+(2, '0', '', 104),
+(3, '0', '', 101),
+(4, '0', '', 103);
