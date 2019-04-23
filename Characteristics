@@ -6,26 +6,28 @@ CREATE TABLE public.characteristics
 (
   role text,
   rank text,
-  "playerType" text,
+  playerType text,
   experience text,
-  "s_Laning" bit(1),
-  "w_Laning" bit(1),
-  "s_TFight" bit(1),
-  "w_TFight" bit(1),
-  "s_ShotCalling" bit(1),
-  "w_ShotCalling" bit(1),
-  "s_GSense" bit(1),
-  "w_GSense" bit(1),
-  "s_Farm" bit(1),
-  "w_Farm" bit(1),
-  "s_Vision" bit(1),
-  "w_Vision" bit(1),
-  "preferred_Champion" text,
+  s_Laning bit(1),
+  w_Laning bit(1),
+  s_TFight bit(1),
+  w_TFight bit(1),
+  s_ShotCalling bit(1),
+  w_ShotCalling bit(1),
+  s_GSense bit(1),
+  w_GSense bit(1),
+  s_Farm bit(1),
+  w_Farm bit(1),
+  s_Vision bit(1),
+  w_Vision bit(1),
+  preferred_Champion text,
   username text
 )
 WITH (
   OIDS=FALSE
 );
 ALTER TABLE public.characteristics
-  OWNER TO postgres;
+  OWNER TO  jackad;
+  
 --++ ADDED TO DB 4/23
+--modified to match what is on db 4/23
