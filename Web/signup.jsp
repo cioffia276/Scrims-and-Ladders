@@ -8,12 +8,32 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
 <%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 <html>
 <head>
     <title>Signup</title>
     <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
 </head>
+
+<script>
+    function insert(){
+        var x = document.getElementById("signup");
+
+
+        <sql:update dataSource = "${snapshot}" var = "result">
+        INSERT INTO userInfo VALUES(x.elements[0],x.elements[1],x.elements[2],x.elements[3],x.elements[4]);
+        </sql:update>
+    }
+</script>
+
 <body>
+
+<sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver"
+    url = "104.130.207.9"
+    user = "jackad"  password = "K1m19s!"/>
+
+
 <div class="header">
     <div class="header-left">
         <a href="index.jsp"> Home</a>
@@ -26,7 +46,7 @@
         <a href="signup.jsp">Sign Up</a>
     </div>
 </div>
-<form>
+<form id="signup" method="post">
     <div class="regularText">
     Player Type:
     <br>
