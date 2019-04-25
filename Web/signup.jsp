@@ -7,13 +7,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
-<%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
+<%@ page import = "javax.servlet.*,javax.servlet.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 <html>
 <head>
     <title>Signup</title>
-    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
+    <link rel="stylesheet" type="text/css" href="HeaderTest.css" ;>
 </head>
 
 <script>
@@ -24,6 +24,14 @@
         <sql:update dataSource = "${snapshot}" var = "result">
         INSERT INTO userinfo VALUES(x.elements[0],x.elements[1],x.elements[2],x.elements[3],x.elements[4]);
         </sql:update>
+    }
+    function required(inputtx) {
+        if(inputtx.value.length == 0){
+            alert("All fields are required!");
+            return false;
+        }
+        else
+            return true;
     }
 </script>
 
@@ -48,7 +56,30 @@
 </div>
 
 
-<form id="signup" method="post">
+<form action ="register" id="signup" method="post">
+    <div>
+        Username:
+        <br>
+        <input type="text" name="username" onsubmit="required(username)"/>
+    </div>
+    <br>
+    <div>
+        Password:
+        <br>
+        <input type="password" name="pw1" onsubmit="required(pw1)"/>
+    </div>
+    <br>
+    <div>
+        Confirm Password:
+        <br>
+        <input type="password" name="pw2" onsubmit="required(pw2)"/>
+    </div>
+    <br>
+    <div>
+        Email:
+        <br>
+        <input type="text" name="email" onsubmit="required(email)"/>
+    </div>
     <div class="regularText">
     Player Type:
     <br>
@@ -60,7 +91,7 @@
     <br>
         <div>
     Rank:
-    <select name="Rank">
+    <select name="rank">
         <option value="Iron">Iron</option>
         <option value="Silver">Silver</option>
         <option value="Gold">Gold</option>
@@ -73,7 +104,7 @@
         </div>
     <br><br>
     Division:
-    <select name="Division">
+    <select name="division">
         <option value="IV">IV</option>
         <option value="III">III</option>
         <option value="II">II</option>
@@ -81,7 +112,7 @@
     </select>
     <br><br>
     Role:
-    <select name="Role">
+    <select name="role">
         <option value="Top">Top</option>
         <option value="Jungle">Jungle</option>
         <option value="Mid">Mid</option>
@@ -90,14 +121,13 @@
     </select>
     <br><br>
     Play Style:
-    <select name ="Style">
+    <select name ="style">
         <option value="Casual">Casual</option>
         <option value="Core">Core</option>
         <option value="Hardcore">Hardcore</option>
     </select>
     <br><br>
-    <button class="button">
-        <a href="landingPage.jsp">Sign up!</a>
+    <input type="submit" value="Sign Up!" class="button"/>
     </div>
 </form>
 </body>
