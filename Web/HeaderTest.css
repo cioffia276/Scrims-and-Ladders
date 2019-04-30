@@ -129,5 +129,6 @@ input[type=password]:focus{
 
 }
 
-input[type="radio"]{
+input[type="radio"] {
     text-align: left;
+}

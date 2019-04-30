@@ -21,9 +21,20 @@
     </div>
     <div class="header-right">
         <a href="login.jsp">Login</a>
-        <a href="sUp.jsp">Sign Up</a>
+        <a href="signup.jsp">Sign Up</a>
     </div>
 </div>
+<div class="headerM">
+    Support:
 
+</div>
+
+<div class="textYA" style="text-align: center">
+    How about you go support your loot box addiction and not bother us with any issues you have with our website,
+    <br> you punk.
+    <br><br><br>
+
+    All complaints, questions, and comments can be directed to curtinj861@strose.edu
+</div>
 </body>
 </html>
