@@ -33,11 +33,16 @@
         <a href="team.jsp">Team</a>
         <a href="index.jsp"> Log Out</a>
     </div>
+    <div class="headerM">Welcome!</div>
 </div>
-<div class="headerMp">
+<div class="headerM">
     <br>
     Welcome to Scrims and Ladders <%=username%>!
 
+</div>
+<div class="textBA">
+    <br><br><br><br>
+    This is still a work in progress! Please bear with us as we try to make the best experience possible!
 </div>
 </body>
 </html>

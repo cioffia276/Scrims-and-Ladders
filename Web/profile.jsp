@@ -35,7 +35,7 @@
 <body >
 <div class="header">
     <div class="header-left">
-        <a href="index.jsp"> Home</a>
+        <a href="landingPage.jsp"> Home</a>
         <a class="active" href="About.jsp">About</a>
         <a href="FAQ.jsp">FAQ</a>
         <a href="Support.jsp">Support</a>
@@ -43,19 +43,25 @@
     <div class="header-right">
         <a href="profile.jsp">Profile</a>
         <a href="team.jsp">Team</a>
-        <a class="active" href="index.jsp"> Log Out</a>
+        <a href="index.jsp"> Log Out</a>
     </div>
 
-
+<div class="headerM">Profile</div>
 </div>
-<div class="regularTextb">
-    Name: <%=username%>
-    <br>
-    Rank: <%=rank%> <%=division%>
-    <br>
-    Role: <%=role%>
-    <br>
-    Player Style: <%=style%>
+
+<div class="textBA" style="text-align: left;font-size: 20px; ">
+    <br><br>
+    <b>Name:</b> <%=username%>
+    <br><br>
+    <b>Rank:</b> <%=rank%> <%=division%>
+    <br><br>
+    <b>Role:</b> <%=role%>
+    <br><br>
+    <b>Player Style:</b> <%=style%>
+</div>
+
+<div class="textBA">
+
 </div>
 </body>
 </html>
