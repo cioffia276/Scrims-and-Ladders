@@ -205,7 +205,9 @@
 </head>
 <script>
     function increaseTeamRank(){
+
         <%
+        /*
         try{
 
 
@@ -1366,12 +1368,14 @@
         }
        // currentRank = "Challenger";
         }
+
           con.close();
     }
 
     catch(SQLException e){
         out.println(e);
     }
+    */
         %>
     }
 </script>
@@ -1407,9 +1411,7 @@ ADC: <%=adc%>
 Support: <%=support%>
 <br>
 </div>
-<div>
-    <button class="button"  onclick="increaseTeamRank()">Give me a better team</button>
-</div>
+
 
 </body>
 </html>
