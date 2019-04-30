@@ -45,7 +45,10 @@
 
 
         <br><br> We don't not own the right to League of Legends, any heroes, any terminology, or any E-sports teams. <br><br>
-        <b>Please do not sue us.</b>
+        <b>Please do not sue us.</b><br>
+
+        Shout out to Paulie for letting us use his database and web server. We could not have done this without your support and patience.<br>
+
     </div>
 </div>
 

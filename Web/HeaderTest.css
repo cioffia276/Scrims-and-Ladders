@@ -90,19 +90,23 @@ body{
 }
 /*Regular blue text*/
 .regularTextb {
+    font-size: 25px;
     color: #4ea1d3;
     font-family: 'Felix Titling';
 }
 /*Regular yellow text*/
 .regularTexty {
+    font-size: 25px;
     color: #fbd14b;
     font-family: 'Felix Titling';
 }
 .textYA{
+    font-size: 25px;
     color: #fbd14b;
     font-family: Arial;
 }
 .textBA{
+    font-size: 25px;
     color: #4ea1d3;
     font-family: Arial;
 }
@@ -128,7 +132,15 @@ input[type=password]:focus{
 
 
 }
-
-input[type="radio"] {
+input[type=radio] {
     text-align: left;
+}
+input[type=submit]{
+    border: 2px solid #e85a71;
+    background-color: #999999;
+    color: black;
+    border-radius: 4px;
+}
+input[type=submit]:hover{
+    background-color: #fbd14b;
 }

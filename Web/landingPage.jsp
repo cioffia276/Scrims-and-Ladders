@@ -34,9 +34,12 @@
     <a href="index.jsp"> Log Out</a>
 </div>
 </div>
-<div class="headerMp">
+<div class="headerM">
     <br>
-    Welcome to Scrims and Ladders <%=username%>!
+    Welcome to Scrims and Ladders <%=username%>!<br>
+</div>
+<div class="textBA">
+    From here you can go to <a class="active" href="profile.jsp"> your profile</a> or check out <a href="team.jsp">your team</a>!
 
 </div>
 </body>

@@ -33,6 +33,7 @@
 
 </script>
 <body >
+<div class="header">
 <div class="header-left">
     <a href="landingPage.jsp"> Home</a>
     <a  href="loggedInAbout.jsp">About</a>
@@ -44,14 +45,17 @@
     <a href="team.jsp">Team</a>
     <a href="index.jsp"> Log Out</a>
 </div>
-<div class="regularTextb">
-    Name: <%=username%>
-    <br>
-    Rank: <%=rank%> <%=division%>
-    <br>
-    Role: <%=role%>
-    <br>
-    Player Style: <%=style%>
 </div>
+<div class="textBA">
+    <br><br><br>
+    <b>Name:</b> <%=username%> <br>
+    <br>
+    <b>Rank:</b> <%=rank%> <%=division%><br>
+    <br>
+    <b>Role:</b> <%=role%><br>
+    <br>
+    <b>Player Style:</b> <%=style%><br>
+</div>
+
 </body>
 </html>
