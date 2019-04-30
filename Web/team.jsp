@@ -1389,14 +1389,10 @@
     <a href="index.jsp"> Log Out</a>
 </div>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 59a93508c7c8111ee25b3f19d421711925c96081
-=======
->>>>>>> 59a93508c7c8111ee25b3f19d421711925c96081
+<div class="headerM" style="font-size: 40px">
 Your Team:
+</div>
+<div class="textYA">
 <br>
 Coach / Manager: <%=coach%>
 <br>
@@ -1410,7 +1406,7 @@ ADC: <%=adc%>
 <br>
 Support: <%=support%>
 <br>
-
+</div>
 <div>
     <button class="button"  onclick="increaseTeamRank()">Give me a better team</button>
 </div>

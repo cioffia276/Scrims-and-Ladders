@@ -25,10 +25,10 @@
     <a href="index.jsp"> Log Out</a>
 </div>
 </div>
-<div class="headerM">
-    Support:
 
-
+<div class="headerM" style="font-size: 40px">
+    Support!<hr>
+</div>
 
 <div class="textYA" style="text-align: center">
     How about you go support your loot box addiction and not bother us with any issues you have with our website,

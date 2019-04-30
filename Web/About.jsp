@@ -28,7 +28,7 @@
 
 <div>
     <div class="headerM" style="font-size: 40px">
-        About<hr>
+        About!<hr>
     </div>
     <div class="textYA" style="text-align: center">
         Scrims and Ladders is a class project under the guidance of Kimberly Cornell and Paul Olsen. <br>
