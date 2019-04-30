@@ -203,6 +203,7 @@
     <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
 </head>
 <body>
+<div class="header">
 <div class="header-left">
     <a href="landingPage.jsp"> Home</a>
     <a  href="loggedInAbout.jsp">About</a>
@@ -214,7 +215,7 @@
     <a class="active" href="team.jsp">Team</a>
     <a href="index.jsp"> Log Out</a>
 </div>
-
+</div>
 Your Team:
 <br>
 Coach / Manager: <%=coach%>

@@ -46,7 +46,12 @@
     <a href="index.jsp"> Log Out</a>
 </div>
 </div>
-<div class="textBA">
+
+<div class="headerM" style="font-size: 40px">
+    Your Profile!<hr>
+</div>
+
+<div class="textYA">
     <br><br><br>
     <b>Name:</b> <%=username%> <br>
     <br>
