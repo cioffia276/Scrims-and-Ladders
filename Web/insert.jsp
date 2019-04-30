@@ -49,12 +49,13 @@
         out.println(e);
     }
     session.setAttribute("username",username);
+    session.setAttribute("email",email);
     session.setAttribute("pType",pType);
     session.setAttribute("rank",rank);
     session.setAttribute("division",division);
     session.setAttribute("role",role);
     session.setAttribute("pStyle", style);
-    session.setAttribute("email",email);
+
 %>
 
 <html>
