@@ -10,16 +10,16 @@
 <%@ page import = "javax.servlet.*,javax.servlet.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
+<%
+    String username = session.getAttribute("username").toString();
 
+%>
 <html>
 <head>
     <title>Welcome to Scrims and Ladders!</title>
     <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
 </head>
-<%
-    String username = session.getAttribute("username").toString();
 
-%>
 <body>
 <div class="header">
     <div class="header-left">

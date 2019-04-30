@@ -61,50 +61,7 @@
         }
 
     }
-    function insert(){
 
-        <%
-   String username, email,password, rank,division, role, style, pType;
-
-    username=request.getParameter("username");
-    password=request.getParameter("pw1");
-    email=request.getParameter("email");
-
-    pType = request.getParameter("type");
-    rank=request.getParameter("rank");
-    division=request.getParameter("division");
-    role=request.getParameter("role");
-    style=request.getParameter("style");
-    try{
-        Class.forName("org.postgresql.Driver");
-        Connection con = DriverManager.getConnection("jdbc:postgresql://104.130.207.9:5432/jackad","jackad","K1m19s!");
-
-
-
-
-            Statement pstmt=con.createStatement();
-
-             int i=pstmt.executeUpdate("insert into playerbase(username, pw, email ,pType, rank, division, role, pStyle )" +
-                     " values('"+username+"','"+password+"','"+email+"','"+pType+"','"+rank+"','"+division+"','"+role+"','"+style+"')");
-
-
-
-
-
-            con.close();
-
-
-
-
-    }
-    catch(SQLException e){
-        out.println(e);
-    }
-%>
-        window.location.href = "landingPage.jsp";
-        return false;
-
-    }
     function login(){
         window.location.href = "landingPage.jsp";
         return false;
