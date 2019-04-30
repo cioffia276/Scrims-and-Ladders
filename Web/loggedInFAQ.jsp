@@ -14,15 +14,17 @@
 <body>
 <div class="header">
     <div class="header-left">
-        <a href="index.jsp"> Home</a>
-        <a href="About.jsp">About</a>
-        <a class="active" href="FAQ.jsp">FAQ</a>
-        <a href="Support.jsp">Support</a>
+        <a href="landingPage.jsp"> Home</a>
+        <a  href="loggedInAbout.jsp">About</a>
+        <a class="active" href="loggedInFAQ.jsp">FAQ</a>
+        <a href="loggedInSupport.jsp">Support</a>
     </div>
     <div class="header-right">
-        <a href="login.jsp">Login</a>
-        <a href="sUp.jsp">Sign Up</a>
+        <a href="profile.jsp">Profile</a>
+        <a href="team.jsp">Team</a>
+        <a href="index.jsp"> Log Out</a>
     </div>
+</div>
 </div>
 </body>
 </html>

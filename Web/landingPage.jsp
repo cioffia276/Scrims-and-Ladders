@@ -22,27 +22,22 @@
 
 <body>
 <div class="header">
-    <div class="header-left">
-        <a class="active" href="landingPage.jsp"> Home</a>
-        <a href="About.jsp">About</a>
-        <a href="FAQ.jsp">FAQ</a>
-        <a href="Support.jsp">Support</a>
-    </div>
-    <div class="header-right">
-        <a href="profile.jsp">Profile</a>
-        <a href="team.jsp">Team</a>
-        <a href="index.jsp"> Log Out</a>
-    </div>
-    <div class="headerM">Welcome!</div>
+<div class="header-left">
+    <a href="landingPage.jsp"> Home</a>
+    <a  href="loggedInAbout.jsp">About</a>
+    <a  href="loggedInFAQ.jsp">FAQ</a>
+    <a  href="loggedInSupport.jsp">Support</a>
 </div>
-<div class="headerM">
+<div class="header-right">
+    <a class="active" href="profile.jsp">Profile</a>
+    <a href="team.jsp">Team</a>
+    <a href="index.jsp"> Log Out</a>
+</div>
+</div>
+<div class="headerMp">
     <br>
     Welcome to Scrims and Ladders <%=username%>!
 
-</div>
-<div class="textBA">
-    <br><br><br><br>
-    This is still a work in progress! Please bear with us as we try to make the best experience possible!
 </div>
 </body>
 </html>

@@ -33,35 +33,25 @@
 
 </script>
 <body >
-<div class="header">
-    <div class="header-left">
-        <a href="landingPage.jsp"> Home</a>
-        <a class="active" href="About.jsp">About</a>
-        <a href="FAQ.jsp">FAQ</a>
-        <a href="Support.jsp">Support</a>
-    </div>
-    <div class="header-right">
-        <a href="profile.jsp">Profile</a>
-        <a href="team.jsp">Team</a>
-        <a href="index.jsp"> Log Out</a>
-    </div>
-
-<div class="headerM">Profile</div>
+<div class="header-left">
+    <a href="landingPage.jsp"> Home</a>
+    <a  href="loggedInAbout.jsp">About</a>
+    <a  href="loggedInFAQ.jsp">FAQ</a>
+    <a  href="loggedInSupport.jsp">Support</a>
 </div>
-
-<div class="textBA" style="text-align: left;font-size: 20px; ">
-    <br><br>
-    <b>Name:</b> <%=username%>
-    <br><br>
-    <b>Rank:</b> <%=rank%> <%=division%>
-    <br><br>
-    <b>Role:</b> <%=role%>
-    <br><br>
-    <b>Player Style:</b> <%=style%>
+<div class="header-right">
+    <a class="active" href="profile.jsp">Profile</a>
+    <a href="team.jsp">Team</a>
+    <a href="index.jsp"> Log Out</a>
 </div>
-
-<div class="textBA">
-
+<div class="regularTextb">
+    Name: <%=username%>
+    <br>
+    Rank: <%=rank%> <%=division%>
+    <br>
+    Role: <%=role%>
+    <br>
+    Player Style: <%=style%>
 </div>
 </body>
 </html>
