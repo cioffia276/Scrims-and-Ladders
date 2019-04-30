@@ -86,13 +86,13 @@
     </div>
 </div>
 
-<div class="headerM">
+<div class="headerM" style="font-size: 40px">
     Sign up!
 </div>
 <form method="post"   action="insert.jsp" >
     <div class="textYA" style="text-align: center">
     <div>
-        <br><br><br>
+        <br>
         Username:
         <br>
         <input type="text" name="username" />
@@ -118,7 +118,7 @@
     <div class="regularText">
     <br><br>Player Type:
     <br>
-        <div style="display: block; text-align: left; padding-left: 925px">
+        <div style="display: block; position: relative;">
 
             <input type="radio" checked="checked" name ="type" value="Player"> Player<br>
             <input type="radio" name ="type" value="Coach"> Coach<br>

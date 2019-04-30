@@ -27,8 +27,8 @@
 </div>
 
 <div>
-    <div class="headerM">
-        <br>About <hr>
+    <div class="headerM" style="font-size: 40px">
+        About<hr>
     </div>
     <div class="textYA" style="text-align: center">
         Scrims and Ladders is a class project under the guidance of Kimberly Cornell and Paul Olsen. <br>
@@ -45,7 +45,10 @@
 
 
         <br><br> We don't not own the right to League of Legends, any heroes, any terminology, or any E-sports teams. <br><br>
-        <b>Please do not sue us.</b>
+        <b>Please do not sue us.</b><br>
+
+        Shout out to Paulie for letting us use his database and web server. We could not have done this without your support and patience.<br>
+
     </div>
 </div>
 

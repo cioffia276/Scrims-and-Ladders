@@ -12,7 +12,7 @@
     <title>Home. Of SaL</title>
     <!--Style is how the page is formatted
     This has been moved to the .css to clear up space.-->
-    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
+    <link rel="stylesheet" type="text/css" href="HeaderTest.css">
     <!--.Header is the basic set up of the header
         .header a is the elements within the 'a' header
         .header a:hover makes it so it is highlighted when it is hovered by the mouse

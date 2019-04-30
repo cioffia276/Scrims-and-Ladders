@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>FAQ</title>
-    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
+    <link rel="stylesheet" type="text/css" href="HeaderTest.css">
 </head>
 <body>
 <div class="header">
@@ -21,8 +21,32 @@
     </div>
     <div class="header-right">
         <a href="login.jsp">Login</a>
-        <a href="sUp.jsp">Sign Up</a>
+        <a href="signup.jsp">Sign Up</a>
     </div>
+</div>
+
+<div class="headerM" style="font-size: 40px">
+    Frequently Asked Questions!<hr>
+</div>
+<div class="textYA" style="text-align: center">
+    <br><br>
+    <b>What is League of Legends?</b>
+    <br>
+    "A way people waste their time" -Paul Olsen.<br>
+    "Like piano and tennis" -Kim Cornell<br>
+    League of Legends is a MOBA that fight you dudes on with teams of 5.<br>
+    <br>
+   <b> Why use this service?</b> <br>
+    "Because you don't want to do your homework." -Paul Olsen <br>
+    Why not?<br>
+    <br>
+    <b>What is this service?<br></b>
+    This is a tool used to create teams for League of Legends<br>
+    <br>
+    <b>Region play?<br></b>
+    Nope!<br>
+    <br>
+
 </div>
 </body>
 </html>

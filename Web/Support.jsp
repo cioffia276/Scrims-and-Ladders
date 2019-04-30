@@ -24,9 +24,8 @@
         <a href="signup.jsp">Sign Up</a>
     </div>
 </div>
-<div class="headerM">
-    Support:
-
+<div class="headerM" style="font-size: 40px">
+    Support!<hr>
 </div>
 
 <div class="textYA" style="text-align: center">
