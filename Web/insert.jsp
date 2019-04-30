@@ -54,7 +54,7 @@
     session.setAttribute("division",division);
     session.setAttribute("role",role);
     session.setAttribute("pStyle", style);
-
+    session.setAttribute("email",email);
 %>
 
 <html>

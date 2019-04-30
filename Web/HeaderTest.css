@@ -106,3 +106,28 @@ body{
     color: #4ea1d3;
     font-family: Arial;
 }
+input[type=text]{
+    border: 1px solid #000000;
+    background-color: #c1c1c1;
+    border-radius: 4px;
+}
+input[type=password]{
+    border: 1px solid #000000;
+    background-color: #c1c1c1;
+    border-radius: 4px;
+}
+
+input[type=text]:focus{
+background-color:#999999 ;
+    border: 2px solid #e85a71;
+
+}
+input[type=password]:focus{
+    background-color:#999999 ;
+    border: 2px solid #e85a71;
+
+
+}
+
+input[type="radio"]{
+    text-align: left;

@@ -11,15 +11,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 
-
-
-
-
-
-
-
-
-
 <html>
 <head>
     <title>Signup</title>
@@ -138,9 +129,13 @@
     </div>
 </div>
 
-
+<div class="headerM">
+    Sign up!
+</div>
 <form method="post"   action="insert.jsp" >
+    <div class="textYA" style="text-align: center">
     <div>
+        <br><br><br>
         Username:
         <br>
         <input type="text" name="username" />
@@ -164,16 +159,17 @@
         <input type="text" name="email" />
     </div>
     <div class="regularText">
-    Player Type:
+    <br><br>Player Type:
     <br>
-        <div>
-    <input type="radio" name ="type" value="Player"> Player<br>
-    <input type="radio" name ="type" value="Coach"> Coach<br>
-    <input type="radio" name ="type" value="Manager"> Manager<br>
+        <div style="display: block; text-align: left; padding-left: 925px">
+
+            <input type="radio" checked="checked" name ="type" value="Player"> Player<br>
+            <input type="radio" name ="type" value="Coach"> Coach<br>
+            <input type="radio" name ="type" value="Manager"> Manager<br>
         </div>
     <br>
         <div>
-    Rank:
+    Rank:<br>
     <select name="rank">
         <option value="Iron">Iron</option>
         <option value="Silver">Silver</option>
@@ -212,7 +208,7 @@
     <br><br>
     <input  type="submit"  value="Sign Up!" class="button" />
     </div>
-
+    </div>
 </form>
 </body>
 </html>
