@@ -8,7 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
 <%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
-
+<%
+  String email = null, password = null;
+%>
 <html>
 <head>
   <title>Login in!</title>
@@ -17,6 +19,14 @@
 </head>
 
 <script>
+  function sendIt(){
+      <%
+      password = request.getParameter("pw");
+      email = request.getParameter("email");
+      session.setAttribute("email",email);
+      session.setAttribute("password", password);
+      %>
+  }
   function print(){
       var x = document.getElementById("frm1");
       var text = "";
@@ -46,22 +56,19 @@
 
 <div class="headerM">Login!<br><br><br>
 </div>
-<form id="frm1" method ="post" action="process.jsp">
+<form method ="post" action="emailPWCheck.jsp">
   <div class="regularTexty" style = "text-align: center;">
-  Username:<br>
-  <input type="text" value="" name="username"><br>
+  Email:<br>
+  <input type="text" value="" name="email"><br>
   Password:<br>
-  <input type="password" value="" id="password1"><br>
+  <input type="password" value="" name="pw"><br>
   <br><br>
+    <input type="submit" class="button" value="Log In!">
   </div>
 
 
 </form>
-<p style="text-align: center">
-  <button class="button">
-    <a href="landingPage.jsp">LOG IN</a>
-  </button>
-</p>
+
 
 </body>
 </html>
