@@ -30,18 +30,32 @@
 </div>
 <div class="textYA" style="text-align: center">
     <br><br>
-    <b>What is League of Legends?</b>
-    <br>
-    "A way people waste their time" -Paul Olsen.<br>
-    "Like piano and tennis" -Kim Cornell<br>
-    League of Legends is a MOBA that fight you dudes on with teams of 5.<br>
-    <br>
-   <b> Why use this service?</b> <br>
-    "Because you don't want to do your homework." -Paul Olsen <br>
-    Why not?<br>
-    <br>
     <b>What is this service?<br></b>
     This is a tool used to create teams for League of Legends<br>
+    <br>
+    <b>What is League of Legends?</b>
+    <br>
+    League of Legends is a MOBA that you fight dudes on with teams of 5.<br>
+    <br>
+    <b>What is a MOBA?</b><br>
+    A MOBA is a Multiplayer Online Battle Arena, a subset of strategy games
+    that are played in real-time on a team against another team of players. <br><br>
+    <b>What does “Scrims and Ladders” mean?</b> <br>
+    Scrims and Ladders is a play on Chutes and Ladders, but also plays into our goal as a team builder.<br>
+    Scrim is a shortened versioned, and common esport terminology, of the word scrimmage.<br>
+    Ladder is another term used in esports that describes the different skill levels you or your team is currently playing at.<br>
+    The goal is to get better and climb the ladder as much as you can.<br>
+    <br>
+    <b>How can I delete my account? </b><br>
+    If you would like to delete your account, you can send an email to our support staff at
+    <b>scrimsandladders@gmail.com</b>.
+    <br><br>
+    <b>What do I do if I am not happy with my team and want a new one?</b><br>
+    On the team page, there is a button that will allow you to be removed from your current team and we will then
+    begin matchmaking to find a team that best fits your playstyle and skill level.<br>
+    <br>
+    <b>What do I do if I forget my password?</b><br>
+    Send an email to scrimsandladders@gmail.com, provide your username on the site and we will send you a randomly generated password.<br>
     <br>
     <b>Region play?<br></b>
     Nope!<br>
