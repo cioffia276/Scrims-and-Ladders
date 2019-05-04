@@ -19,48 +19,7 @@
 
 <script>
 
-    function validate()
-    {
-        var usernamee= /^[a-z A-Z 0-9]+$/; //pattern allowed alphabet a-z or A-Z
-        var email_valid= /^[\w\d\.]+\@[a-zA-Z\.]+\.[A-Za-z]{1,4}$/; //pattern valid email validation
-        var password_valid=/^[A-Z a-z 0-9 !@#$%&*()<>]{6,12}$/; //pattern password allowed A to Z, a to z, 0-9, !@#$%&*()<> charecter
 
-        var username = document.getElementById("username"); //textbox id fname
-        var pw1 = document.getElementById("pw1"); //textbox id password
-        var pw2 = document.getElementById("pw2"); //textbox id password
-        var email = document.getElementById("email"); //textbox id email
-
-
-        if(!usernamee.test(username.value) || username.value=='')
-        {
-            alert("Enter Username Alphanumeric Only....!");
-            username.focus();
-            username.style.background = '#f08080';
-            return false;
-        }
-        if(!email_valid.test(email.value) || email.value=='')
-        {
-            alert("Enter Valid Email....!");
-            email.focus();
-            email.style.background = '#f08080';
-            return false;
-        }
-        if(!password_valid.test(pw1.value) || pw1.value=='')
-        {
-            alert("Password Must Be 6 to 12 and allowed !@#$%&*()<> character");
-            pw1.focus();
-            pw1.style.background = '#f08080';
-            return false;
-        }
-        if(!password_valid.test(pw2.value) || pw2.value=='')
-        {
-            alert("Password Must Be 6 to 12 and allowed !@#$%&*()<> character");
-            pw2.focus();
-            pw1.style.background = '#f08080';
-            return false;
-        }
-
-    }
 
     function login(){
         window.location.href = "landingPage.jsp";
