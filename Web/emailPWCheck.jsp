@@ -55,11 +55,14 @@ else{
 
     session.setAttribute("username",rs.getString("username"));
     session.setAttribute("email",email);
-    session.setAttribute("pType",rs.getString("pType"));
+    session.setAttribute("pType",rs.getString("ptype"));
     session.setAttribute("rank",rs.getString("rank"));
     session.setAttribute("division",rs.getString("division"));
     session.setAttribute("role",rs.getString("role"));
     session.setAttribute("pStyle", rs.getString("pStyle"));
+    pType = session.getAttribute("pType").toString();
+
+    if(pType.equals("player") || pType.equals( "Player")){
     %>
     <html>
     <script>
@@ -67,6 +70,17 @@ else{
     </script>
     </html>
     <%
+                    }
+    else if(pType.equals("Coach") || pType.equals("Manager")){
+    %>
+<html>
+<script>
+    window.location.href("CoachlandingPage.jsp");
+</script>
+</html>
+<%
+                    }
+
 }
     }
         con.close();

@@ -18,7 +18,7 @@
 </head>
 
 <script>
-    function alert(){
+    function alert1(){
         alert("Passwords do not match!");
     }
 
@@ -29,7 +29,7 @@
     }
 </script>
 
-<body onload="alert()">
+<body onload="alert1()">
 
 
 

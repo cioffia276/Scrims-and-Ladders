@@ -18,7 +18,7 @@
 </head>
 
 <script>
-    function alert(){
+    function alert1(){
         alert("Please fill in all fields!");
     }
 
@@ -29,7 +29,7 @@
     }
 </script>
 
-<body onload="alert()">
+<body onload="alert1()">
 
 
 

@@ -18,8 +18,8 @@
 </head>
 
 <script>
-    function alert(){
-        alert("Username already in use!");
+    function alert1(){
+        alert("Email or username already in use!");
     }
 
 
@@ -29,7 +29,7 @@
     }
 </script>
 
-<body onload="alert()">
+<body onload="alert1()">
 
 
 

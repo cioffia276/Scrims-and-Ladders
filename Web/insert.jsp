@@ -13,7 +13,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 <%
     String username, email,password1, password2, rank,division, role, style, pType;
-
+    ResultSet rs1 = null, rs2 = null;
     username=request.getParameter("username");
     password1=request.getParameter("pw1");
     password2 = request.getParameter("pw2");
@@ -26,11 +26,16 @@
     style=request.getParameter("style");
     try{
         Class.forName("org.postgresql.Driver");
+
         Connection con = DriverManager.getConnection("jdbc:postgresql://104.130.207.9:5432/jackad","jackad","K1m19s!");
-        ResultSet rs1 = null, rs2 = null;
+
         Statement stmt = con.createStatement();
+
         rs1 = stmt.executeQuery("select email from playerbase where email ='"+email+"'");
+
+        stmt = con.createStatement();
         rs2 = stmt.executeQuery("select username from playerbase where username ='"+username+"'");
+
         if(username == "" || password1 == "" || password2 == "" || email == ""){
             %>
 <html>
@@ -40,7 +45,9 @@
 </html>
 <%
 }
+
          else if(!password1.equals(password2)){
+
             %>
 <html>
 <script>
@@ -49,31 +56,15 @@
 </html>
 <%
         }
-        else if(!rs1.next()){
-            %>
-<html>
-<script>
-    window.location.href = "emailDNE.jsp";
-</script>
-</html>
-<%
-        }
-        else if(!rs2.next()){
-%>
-<html>
-<script>
-    window.location.href = "usernameDNE.jsp";
-</script>
-</html>
-<%
-        }
+
         else {
 
 
             Statement pstmt = con.createStatement();
 
-            int i = pstmt.executeUpdate("insert into playerbase(username, pw, email ,pType, rank, division, role, pStyle )" +
-                    " values('" + username + "','" + password1 + "','" + email + "','" + pType + "','" + rank + "','" + division + "','" + role + "','" + style + "')");
+            int i = pstmt.executeUpdate("insert into playerbase(username, pw, email ,pType, rank, division, role, pStyle, status )" +
+                    " values('" + username + "','" + password1 + "','" + email + "','" + pType + "','" + rank + "','" + division + "','" + role + "','" + style + "','free')");
+            if(pType.equals("player") || pType.equals("Player")){
 
 %>
 <html>
@@ -81,7 +72,16 @@
     window.location.href = "landingPage.jsp";
 </script>
 </html>
+<%}
+            else{
+%>
+<html>
+<script>
+    window.location.href = "CoachlandingPage.jsp";
+</script>
+</html>
 <%
+            }
         }
 
             con.close();
