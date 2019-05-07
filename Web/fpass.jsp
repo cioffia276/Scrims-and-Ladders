@@ -1,30 +1,25 @@
 <%--
   Created by IntelliJ IDEA.
-  User: zajeskyk231
-  Date: 4/11/2019
-  Time: 2:59 PM
+  User: cioffia276
+  Date: 5/7/2019
+  Time: 6:57 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="java.io.*,java.util.*,java.sql.*"%>
-<%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
-<%
-    String email = null, password = null;
-%>
 <html>
 <head>
-    <title>Login in!</title>
-    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
-    <style> </style>
-</head>
 
+    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
+    <title>Forgot Password?</title>
+</head>
+<body>
 <script>
-    function wrongPW(){
-        alert("Incorrect Password!");
+    function forgot(){
+        alert("Please send an email to scrimsandladders@gmail.com with the email associated with your account, and we'll sort it out for you!");
     }
 </script>
 
-<body onload="wrongPW()">
+<body onload="forgot()">
 
 <div class="header">
     <div class="header-left">
@@ -40,6 +35,7 @@
 
 
 </div>
+
 <div class="headerM">Login!<br><br><br>
 </div>
 <form method ="post" action="emailPWCheck.jsp">
