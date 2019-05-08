@@ -240,7 +240,21 @@
     catch(SQLException e){
         out.println(e);
     }
-
+    if(top == null){
+        top = "No available player!";
+    }
+    if(jungle == null){
+        jungle = "No available player!";
+    }
+    if(mid == null){
+        mid = "No available player!";
+    }
+    if(adc == null){
+        adc = "No available player!";
+    }
+    if(support == null){
+        support = "No available player!";
+    }
 %>
 <html>
 <head>
