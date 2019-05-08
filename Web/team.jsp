@@ -27,6 +27,7 @@
         Class.forName("org.postgresql.Driver");
         Connection con = DriverManager.getConnection("jdbc:postgresql://104.130.207.9:5432/jackad", "jackad", "K1m19s!");
         Statement pstmt = con.createStatement();
+        //pulls the players team from the teams database if they are apart of one
         rs = pstmt.executeQuery("SELECT * FROM teams where "+role.toLowerCase()+"= '"+username+"'");
         if(rs.next()) {
             coach = rs.getString("coach");

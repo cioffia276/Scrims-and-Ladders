@@ -21,7 +21,8 @@
 
 
 
-
+//Allows a user to change info on their profile
+    //They can change their rank, role, division, and play style
 
 %>
 <html>

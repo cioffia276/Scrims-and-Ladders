@@ -22,7 +22,7 @@
     String top = null, jungle= null, mid = null, adc = null, support = null, coach = null;
 
     try{
-
+//Each section finds an availible player of the same rank and play style for each role to form a team
         Class.forName("org.postgresql.Driver");
         Connection con = DriverManager.getConnection("jdbc:postgresql://104.130.207.9:5432/jackad","jackad","K1m19s!");
         if(pType.toLowerCase().equals("player")) {
@@ -203,6 +203,9 @@
 
         pstmt = con.createStatement();
         ResultSet rs3 = pstmt.executeQuery("SELECT * from teams where coach ='"+coach+"'");
+
+        //inserts the newly formed team into the teams database
+
         if(!rs.next()){}
         else {
             pstmt = con.createStatement();

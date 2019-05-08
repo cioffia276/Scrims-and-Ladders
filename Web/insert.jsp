@@ -36,6 +36,8 @@
         stmt = con.createStatement();
         rs2 = stmt.executeQuery("select username from playerbase where username ='"+username+"'");
 
+        //check for blank fields
+
         if(username == "" || password1 == "" || password2 == "" || email == ""){
             %>
 <html>
@@ -45,6 +47,8 @@
 </html>
 <%
 }
+
+        //check for matching passwords
 
          else if(!password1.equals(password2)){
 
@@ -61,6 +65,8 @@
 
 
             Statement pstmt = con.createStatement();
+
+            //inserts the user information into the playerbase table
 
             int i = pstmt.executeUpdate("insert into playerbase(username, pw, email ,pType, rank, division, role, pStyle, status )" +
                     " values('" + username + "','" + password1 + "','" + email + "','" + pType + "','" + rank + "','" + division + "','" + role + "','" + style + "','free')");

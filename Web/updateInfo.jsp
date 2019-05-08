@@ -24,7 +24,7 @@
         Class.forName("org.postgresql.Driver");
 
         Connection con = DriverManager.getConnection("jdbc:postgresql://104.130.207.9:5432/jackad","jackad","K1m19s!");
-
+//updates the user's specified information
         if(!rank.equals("")){
             Statement pstmt = con.createStatement();
             int i = pstmt.executeUpdate("UPDATE playerbase set rank = '" + rank + "' where email = '"+email+"'");
