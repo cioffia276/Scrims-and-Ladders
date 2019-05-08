@@ -23,6 +23,7 @@
 
     try{
 //Each section finds an availible player of the same rank and play style for each role to form a team
+
         Class.forName("org.postgresql.Driver");
         Connection con = DriverManager.getConnection("jdbc:postgresql://104.130.207.9:5432/jackad","jackad","K1m19s!");
         if(pType.toLowerCase().equals("player")) {
@@ -236,7 +237,21 @@
         if (rs.next()) {
             top = rs.getString("top");
         }
-
+        if(top == null){
+            top = "No available player!";
+        }
+        if(jungle == null){
+            jungle = "No available player!";
+        }
+        if(mid == null){
+            mid = "No available player!";
+        }
+        if(adc == null){
+            adc = "No available player!";
+        }
+        if(support == null){
+            support = "No available player!";
+        }
         con.close();
     }
 
@@ -280,9 +295,9 @@
 <div class="header">
     <div class="header-left">
         <a href="CoachlandingPage.jsp"> Home</a>
-        <a  href="loggedInAbout.jsp">About</a>
-        <a  href="loggedInFAQ.jsp">FAQ</a>
-        <a  href="loggedInSupport.jsp">Support</a>
+        <a  href="Coachabout.jsp">About</a>
+        <a  href="CoachFAQ.jsp">FAQ</a>
+        <a  href="Coachsupport.jsp">Support</a>
     </div>
     <div class="header-right">
         <a  href="Coachprofile.jsp">Profile</a>
@@ -293,7 +308,7 @@
 <div class="headerM" style="font-size: 40px">
     Your Team:
 </div>
-<div class="textYA">
+<div class="textYA" style="text-align: center">
     <br>
     Coach / Manager:<p> <%=coach%> </p>
     <br>
@@ -306,11 +321,12 @@
     ADC: <p id="adc1"></p>
     <br>
     Support: <p id="support1"></p>
+
     <br>
+    <button class="button" onclick="makeTeam()" id="teamButton">
+        Create a Team
+    </button>
 </div>
 
-<button class="button" onclick="makeTeam()" id="teamButton">
-    Create a Team
-</button>
 </body>
 </html>

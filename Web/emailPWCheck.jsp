@@ -28,6 +28,7 @@
         rs = pstmt.executeQuery("SELECT * from playerbase where email = '" + email +"'");
 
 //checks if the email is registered or not
+
         if(!rs.next()){
 
 %>
@@ -40,6 +41,7 @@ window.location.href("loginFail2.jsp");
 }
 else{
 //checks to see if the correct password was entered for the account
+
     String pw =rs.getString("pw");
     if(!pw.equals(password)){
 %>

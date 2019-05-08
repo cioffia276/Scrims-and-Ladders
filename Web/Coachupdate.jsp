@@ -24,7 +24,6 @@
         Class.forName("org.postgresql.Driver");
 
         Connection con = DriverManager.getConnection("jdbc:postgresql://104.130.207.9:5432/jackad","jackad","K1m19s!");
-//updates the user's specified information
 
         if(!rank.equals("")){
             Statement pstmt = con.createStatement();
@@ -70,7 +69,7 @@
 </head>
 <script>
     function login(){
-        window.location.href = "profile.jsp";
+        window.location.href = "Coachprofile.jsp";
         return false;
     }
 </script>

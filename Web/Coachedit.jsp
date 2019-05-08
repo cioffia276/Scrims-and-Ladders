@@ -21,8 +21,7 @@
 
 
 
-//Allows a user to change info on their profile
-    //They can change their rank, role, division, and play style
+
 
 %>
 <html>
@@ -36,14 +35,14 @@
 <body >
 <div class="header">
     <div class="header-left">
-        <a href="landingPage.jsp"> Home</a>
-        <a  href="loggedInAbout.jsp">About</a>
-        <a  href="loggedInFAQ.jsp">FAQ</a>
-        <a  href="loggedInSupport.jsp">Support</a>
+        <a href="CoachlandingPage.jsp"> Home</a>
+        <a  href="Coachabout.jsp">About</a>
+        <a  href="CoachFAQ.jsp">FAQ</a>
+        <a  href="Coachsupport.jsp">Support</a>
     </div>
     <div class="header-right">
-        <a class="active" href="profile.jsp">Profile</a>
-        <a href="team.jsp">Team</a>
+        <a href="Coachprofile.jsp">Profile</a>
+        <a href="Coachteam.jsp">Team</a>
         <a href="index.jsp"> Log Out</a>
     </div>
 </div>
@@ -52,9 +51,9 @@
     Edit your Profile!<hr>
 </div>
 <div class="textYA" style="text-align: center">
-<form  method="post"   action="updateInfo.jsp" >
+<form  method="post"   action="Coachupdate.jsp" >
     <div>
-    Rank:<br>
+    Rank:
     <select name="rank">
         <option value="Iron">Iron</option>
         <option value="Silver">Silver</option>
@@ -66,7 +65,7 @@
         <option value="Challenger">Challenger</option>
     </select>
 </div>
-<br><br>
+<br>
 Division:
 <select name="division">
     <option value="IV">IV</option>

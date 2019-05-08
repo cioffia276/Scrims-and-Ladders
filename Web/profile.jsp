@@ -51,7 +51,7 @@
     Your Profile!<hr>
 </div>
 
-<div class="textYA">
+<div class="textYA" style="text-align: center">
     <br><br><br>
     <b>Name:</b> <%=username%> <br>
     <br>
@@ -60,11 +60,12 @@
     <b>Role:</b> <%=role%><br>
     <br>
     <b>Player Style:</b> <%=style%><br>
+    <button class="button">
+        <a href="editInfo.jsp">Edit Profile</a>
+    </button>
 </div>
 
-<button class="button">
-    <a href="editInfo.jsp">Edit Profile</a>
-</button>
+
 
 </div>
 </body>

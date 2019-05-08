@@ -61,7 +61,7 @@
   Email:<br>
   <input type="text" value="" name="email"><br><br>
   Password:<br>
-  <input type="password" value="" name="pw"><br>
+  <input type="password" value="" name="pw"><br><br>
     <div class="regularTexty" style="text-align: center; font-size: small;">
       <a href="fpass.jsp">Forgot your username or password?</a><br><br>
     </div>

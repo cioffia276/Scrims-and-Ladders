@@ -33,7 +33,6 @@
     Frequently Asked Questions!<hr>
 </div>
 <div class="textYA" style="text-align: center">
-    <br><br>
     <b>What is this service?<br></b>
     This is a tool used to create teams for League of Legends<br>
     <br>
