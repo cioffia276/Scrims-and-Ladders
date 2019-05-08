@@ -62,5 +62,9 @@
     <b>Player Style:</b> <%=style%><br>
 </div>
 
+<div class = "button">
+    <button href="editInfo.jsp">Change Information
+    </button>
+</div>
 </body>
 </html>
