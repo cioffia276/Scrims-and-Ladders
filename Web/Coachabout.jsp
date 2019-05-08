@@ -1,37 +1,35 @@
 <%--
   Created by IntelliJ IDEA.
   User: cioffia276
-  Date: 4/11/2019
-  Time: 3:34 PM
+  Date: 5/7/2019
+  Time: 8:44 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>About</title>
-    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
+    <title>Title</title>
 </head>
 <body>
-
 <div class="header">
     <div class="header-left">
-        <a href="index.jsp"> Home</a>
-        <a class="active" href="About.jsp">About</a>
-        <a href="FAQ.jsp">FAQ</a>
-        <a href="Support.jsp">Support</a>
+        <a href="CoachlandingPage.jsp"> Home</a>
+        <a class="active" href="Coachabout.jsp.jsp">About</a>
+        <a href="loggedInFAQ.jsp">FAQ</a>
+        <a href="loggedInSupport.jsp">Support</a>
     </div>
     <div class="header-right">
-        <a href="login.jsp">Login</a>
-        <a href="signup.jsp">Sign Up</a>
+        <a href="Coachprofile.jsp">Profile</a>
+        <a href="Coachteam.jsp">Team</a>
+        <a href="index.jsp"> Log Out</a>
     </div>
 </div>
-
 <div>
     <div class="headerM" style="font-size: 40px">
         About!<hr>
     </div>
     <div class="textYA" style="text-align: center">
-                <br>
+        <br>
         <br>J.A.C.K. consists of:<br><br>
         <b>Jesse Curtin</b> <br>
         Jesse is a Junior Software Engineer. In his free time he plays COD<br><br>
@@ -53,10 +51,6 @@
 
     </div>
 </div>
-
-
-
-
 
 </body>
 </html>

@@ -62,9 +62,10 @@
     <b>Player Style:</b> <%=style%><br>
 </div>
 
-<div class = "button">
-    <button href="editInfo.jsp">Change Information
-    </button>
+<button class="button">
+    <a href="editInfo.jsp">Edit Profile</a>
+</button>
+
 </div>
 </body>
 </html>

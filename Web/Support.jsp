@@ -29,11 +29,7 @@
 </div>
 
 <div class="textYA" style="text-align: center">
-    How about you go support your loot box addiction and not bother us with any issues you have with our website,
-    <br> you punk.
-    <br><br><br>
-
-    All complaints, questions, and comments can be directed to curtinj861@strose.edu
+    All complaints, questions, and comments can be directed to scrimsandladders@gmail.com
 </div>
 </body>
 </html>

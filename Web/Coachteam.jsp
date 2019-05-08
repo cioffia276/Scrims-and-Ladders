@@ -276,7 +276,7 @@
 <body>
 <div class="header">
     <div class="header-left">
-        <a href="landingPage.jsp"> Home</a>
+        <a href="CoachlandingPage.jsp"> Home</a>
         <a  href="loggedInAbout.jsp">About</a>
         <a  href="loggedInFAQ.jsp">FAQ</a>
         <a  href="loggedInSupport.jsp">Support</a>
@@ -305,9 +305,9 @@
     Support: <p id="support1"></p>
     <br>
 </div>
-<div class="button" id="teamButton">
-    <button onclick="makeTeam()">Create a Team</button>
-</div>
 
+<button class="button" onclick="makeTeam()" id="teamButton">
+    Create a Team
+</button>
 </body>
 </html>

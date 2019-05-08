@@ -20,7 +20,7 @@
 
 <script>
     function wrongPW(){
-        alert("Incorrect Password!");
+        alert("Incorrect password OR email!");
     }
 </script>
 

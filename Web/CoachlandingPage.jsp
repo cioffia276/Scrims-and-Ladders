@@ -39,7 +39,7 @@
     Welcome to Scrims and Ladders <%=username%>!<br>
 </div>
 <div class="textBA">
-    From here you can go to <a class="active" href="profile.jsp"> your profile</a> or check out <a href="team.jsp">your team</a>!
+    From here you can go to <a href="Coachprofile.jsp"> your profile</a> or check out <a href="Coachteam.jsp">your team</a>!
 
 </div>
 </body>

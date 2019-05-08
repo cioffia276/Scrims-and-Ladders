@@ -27,36 +27,33 @@
     </div>
 </div>
 
-
-
 <div>
     <div class="headerM" style="font-size: 40px">
         About!<hr>
     </div>
     <div class="textYA" style="text-align: center">
-        Scrims and Ladders is a class project under the guidance of Kimberly Cornell and Paul Olsen. <br>
-        This project is not to be taken seriously. We're just for college kids trying to pass a class. <br>
-
         <br>
-        <br>Our team consists of:<br>
-        Jesse Curtin <br>
-        Antoinette Cioffi<br>
-        Cathrine Davis <br>
-        Kenny Zajesky <br>
+        <br>J.A.C.K. consists of:<br><br>
+        <b>Jesse Curtin</b> <br>
+        Jesse is a Junior Software Engineer. In his free time he plays COD<br><br>
+        <b>Antoinette Cioffi</b><br>
+        Antoinette is a daycare teacher who absolutely hates coding, but somehow ended up as the Frontend leader. In her free time she likes to rearrange her classroom, build computers and complain about the elderly.<br>
+        <b><br>Cathrine Davis</b> <br>
+        Cat is a software developer and a QA lead. In her free time she enjoys hiking.<br>
+        <b><br>Kenneth Zajesky</b> <br>
+        Kenny is a tutor and the Backend leader who is really into League of Legends. In fact, this whole project was his idea! In his free time Kenny likes to take long walks on the beach, message his girlfriend, and complain about the random's he's paired with.
         <br>
-        We will be at the pizza party.<br>
 
 
         <br><br> We don't not own the right to League of Legends, any heroes, any terminology, or any E-sports teams. <br><br>
         <b>Please do not sue us.</b><br>
-
-        Shout out to Paulie for letting us use his database and web server. We could not have done this without your support and patience.<br>
+        Scrims and Ladders is a class project under the guidance of Kimberly Cornell and Paul Olsen. <br>
+        This project is not to be taken seriously. We're just for college kids trying to pass a class. <br>
+        Shout-out to:<br>
+        Paul, Ted
 
     </div>
 </div>
-
-
-
 
 
 </body>
