@@ -1,2 +1,4 @@
 # CSC434-Group2
 Starting out the repository for our class program
+
+Scrims and Ladders is a team-building platform for League of Legends that allows our users to team up with other players around the world. We provide the ability to team up with other players in the event you do not have enough people to team up with on your own. However, maybe your friends are too good, or maybe they can’t keep up with you. This is where the Scrims and Ladders service comes into play, we will assign you to a team that has similar strengths and skill set. Our service also caters to any audience of the League of Legends fanbase, and welcomes players of all levels of commitment; new players to the game, casual players who understand the game and enjoy having fun, and those who are committed to putting the time and effort in to get as skilled as they possibly can within a team environment.
