@@ -9,14 +9,15 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="HeaderTest.css";>
 </head>
 <body>
 <div class="header">
     <div class="header-left">
         <a href="CoachlandingPage.jsp"> Home</a>
-        <a class="active" href="Coachabout.jsp.jsp">About</a>
-        <a href="loggedInFAQ.jsp">FAQ</a>
-        <a href="loggedInSupport.jsp">Support</a>
+        <a class="active" href="Coachabout.jsp">About</a>
+        <a href="CoachFAQ.jsp">FAQ</a>
+        <a href="Coachsupport.jsp">Support</a>
     </div>
     <div class="header-right">
         <a href="Coachprofile.jsp">Profile</a>

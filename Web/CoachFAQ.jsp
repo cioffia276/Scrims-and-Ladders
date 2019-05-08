@@ -16,8 +16,8 @@
     <div class="header-left">
         <a href="Coachlandingpage.jsp"> Home</a>
         <a href="Coachabout.jsp">About</a>
-        <a href="CoachFAQ.jsp">FAQ</a>
-        <a class="active" href="Coachsupport.jsp">Support</a>
+        <a class="active"  href="CoachFAQ.jsp">FAQ</a>
+        <a href="Coachsupport.jsp">Support</a>
     </div>
     <div class="header-right">
         <a href="Coachprofile.jsp">Profile</a>

@@ -23,13 +23,13 @@
 <body>
 <div class="header">
 <div class="header-left">
-    <a href="landingPage.jsp"> Home</a>
+    <a  class="active" href="landingPage.jsp"> Home</a>
     <a  href="loggedInAbout.jsp">About</a>
     <a  href="loggedInFAQ.jsp">FAQ</a>
     <a  href="loggedInSupport.jsp">Support</a>
 </div>
 <div class="header-right">
-    <a class="active" href="profile.jsp">Profile</a>
+    <a href="profile.jsp">Profile</a>
     <a href="team.jsp">Team</a>
     <a href="index.jsp"> Log Out</a>
 </div>
@@ -38,7 +38,7 @@
     <br>
     Welcome to Scrims and Ladders <%=username%>!<br>
 </div>
-<div class="textBA">
+<div class="textBA" style="text-align: center">
     From here you can go to <a class="active" href="profile.jsp"> your profile</a> or check out <a href="team.jsp">your team</a>!
 
 </div>

@@ -24,9 +24,9 @@
 <div class="header">
     <div class="header-left">
         <a class="active" href="CoachlandingPage.jsp"> Home</a>
-        <a  href="loggedInAbout.jsp">About</a>
-        <a  href="loggedInFAQ.jsp">FAQ</a>
-        <a  href="loggedInSupport.jsp">Support</a>
+        <a  href="Coachabout.jsp">About</a>
+        <a  href="CoachFAQ.jsp">FAQ</a>
+        <a  href="Coachsupport.jsp">Support</a>
     </div>
     <div class="header-right">
         <a href="Coachprofile.jsp">Profile</a>
@@ -38,7 +38,7 @@
     <br>
     Welcome to Scrims and Ladders <%=username%>!<br>
 </div>
-<div class="textBA">
+<div class="textBA" style="text-align: center">
     From here you can go to <a href="Coachprofile.jsp"> your profile</a> or check out <a href="Coachteam.jsp">your team</a>!
 
 </div>
